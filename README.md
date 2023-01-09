@@ -16,3 +16,6 @@ Para subir a GitHub:
 Para saber los commits que han habido: 
 
 - git log
+
+### HTML ###
+Escribiendo HTML +tab ya sale la estructura en el programa.
