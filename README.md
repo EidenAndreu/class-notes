@@ -40,3 +40,10 @@ Para saber los commits que han habido:
 
 ### HTML ###
 Escribiendo HTML +tab ya sale la estructura en el programa.
+<!-- <main> --> sirve para indicar una sección, p.ej: habría un main para home, otro para about us, etc.
+
+#### Abreviaturas #####
+
+Alt + click -> multiselección
+div>h1 -> clases agrupadas
+h1*3 -> crear varios encabezados a la vez
