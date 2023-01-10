@@ -44,6 +44,6 @@ Escribiendo HTML +tab ya sale la estructura en el programa.
 
 #### Abreviaturas #####
 
-Alt + click -> multiselección
-div>h1 -> clases agrupadas
-h1*3 -> crear varios encabezados a la vez
+- Alt + click -> multiselección
+- div>h1 -> clases agrupadas
+- h1*3 -> crear varios encabezados a la vez
