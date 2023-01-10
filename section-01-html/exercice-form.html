@@ -14,16 +14,36 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css" />
         <title>Document</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+            form {
+                background-color: blueviolet;
+                
+                
+            }
+
+            .name{
+                font-size: 12em;
+                font-family: "Montserrat";
+
+            }
+
+            #age{
+                margin: 24px;
+
+            }
+        </style>
      </head>
      <body>
         <form action="/someUrl">
             <h1>Bands</h1>
             <h2>Choose your favorites</h2>
-            <label for="name" placeholder="Enter your full name">Name: </label>
-            <input type="text" id="name">
+            <label for="name" placeholder="Enter your full name" class="name" >Name: </label>
+            <input type="text" id="name" >
             
-            <label for="age">Email: </label>
+            <label for="age" id="age">Age: </label>
             <input type="number" min="0" max="18" id="age" placeholder="Enter your age">
             
             <label for="comments" placeholder="Enter your 5 favorite groups">Comment your 5 favorite groups: </label>
@@ -38,5 +58,6 @@
             <option value="other">Other</option>
             <label for="electronic">Electronic</label>
         </form>
+        
      </body>
      </html>
