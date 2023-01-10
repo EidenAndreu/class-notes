@@ -1,0 +1,42 @@
+<!--Hacemos un formulario de grupos musicales.
+     X Tendremos un input type text para el full name del usuario. 
+     X Tendremos un input type number para pedir la edad del usuario 
+     (debe tener un mínimo de 0 y un máximo de 18). 
+     XTambién tendremos un textarea para que el usuario inpute sus 5 grupos favoritos. 
+     X Este textarea debe tener un placeholder para guiar al usuario. 
+     X Vamos a hacer un dropdown que permita al usuario escoger entre 3 opciones su género musical favorito. 
+     Finalmente tendremos un input type submit para poder enviar el formulario.
+    titulo + subtitulo-->
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+     </head>
+     <body>
+        <form action="/someUrl">
+            <h1>Bands</h1>
+            <h2>Choose your favorites</h2>
+            <label for="name" placeholder="Enter your full name">Name: </label>
+            <input type="text" id="name">
+            
+            <label for="age">Email: </label>
+            <input type="number" min="0" max="18" id="age" placeholder="Enter your age">
+            
+            <label for="comments" placeholder="Enter your 5 favorite groups">Comment your 5 favorite groups: </label>
+            <!--<textarea name="comments" id="" cols="30" rows="10"></textarea>-->
+            <input type="text" id="comments" >
+
+            <label for="genre">Choose a genre:</label><br />
+                <select id="genre" name="genre">
+            <option value="rap">Rap</option>
+            <option value="pop">Pop</option>
+            <option value="k-pop">K-pop</option>
+            <option value="other">Other</option>
+            <label for="electronic">Electronic</label>
+        </form>
+     </body>
+     </html>
