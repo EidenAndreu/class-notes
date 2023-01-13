@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px){
+    .mobile{
+        display:block
+    }
+
+    .tablet{
+        display:none
+    }
+
+    .pc{
+    display:none
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width: 768px){
+    .mobile{
+        display:none
+    }
+    
+    .tablet{
+        display:block
+    }
+    
+    .pc{
+        display:none
+    }
+    
+}
+
+@media screen and (min-width:769px){
+    .mobile{
+        display:none
+    }
+    
+    .tablet{
+        display:none
+    }
+    
+    .pc{
+        display:block
+    }
+}

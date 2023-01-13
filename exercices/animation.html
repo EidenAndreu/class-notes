@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      div {
+        background-color: rgb(102, 0, 255);
+        height: 100px;
+        width: 100px;
+        animation: wuTang infinite  ease-in-out 1500ms alternate both running 500ms;
+
+        
+      }
+
+      @keyframes wuTang {
+        0% {
+          left: 0px;
+          top: 0px;
+          background-color: greenyellow;
+          width: 100px;
+          height: 100px;
+        }
+
+        25%,
+        75% {
+          left: 0px;
+          top: 0px;
+          background-color: rgb(15, 180, 48);
+          width: 200px;
+          height: 200px;
+        }
+
+        100% {
+          left: 0px;
+          top: 0px;
+          background-color: rgb(20, 149, 175);
+          width: 20px;
+          height: 20px;
+        }
+      }
+    </style>
+
+    <section><div></div></section>
+  </body>
+</html>
