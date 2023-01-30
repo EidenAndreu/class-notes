@@ -1,0 +1,97 @@
+/* General Settings */
+* {
+    box-sizing: border-box;
+    /*    margin: 0;
+    padding: 0; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.6rem;
+    color: #292e47;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+/* Header section */
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+   /*  margin: 0 auto 75px auto;
+    padding: 0 30px 15px 30px;
+    height: 80px; */
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    list-style: none;
+    
+}
+nav{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 75px auto;
+    padding: 0 30px 15px 30px;
+    height: 80px;
+}
+
+/* Presentation Section */
+
+
+#presentation{
+    width: 100%;
+    text-align: center;
+}
+
+#presentation p {
+    font-size: 1.3rem;
+    color: #6b708d;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 30px 0 50px 0;
+}
+
+/* Brands section */
+#brands{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    animation: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+/* Recent Projects section */
+
+#recentProjectsBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+}
+
+/* Clients section */
+
+/* Our services section */
+
+/* Suscribe section */
+
+/* Footer section */
